@@ -2,7 +2,7 @@
 
 Simple Fabric fabfile to clone a VM from a template on VMware ESXi
 
-**Install fabric**
+**Install fabric :**
 ```
 #> pip install fabric
 ```
