@@ -1,0 +1,21 @@
+{
+  "datastore": "/vmfs/volumes/datastore1",
+
+  "template": [
+    {
+      "name": "ubuntu-1404-64bit",
+      "vmdk" : "/vmfs/volumes/datastore1/ubuntu-1404-64bit/ubuntu-1404-64bit.vmdk",
+      "vmx_file": "ubuntu-1404-64bit.vmx"
+    }
+  ],
+  "VM": [
+    {
+      "name": "myvm-dev",
+      "memory": "2048",
+      "guestos":"ubuntu-64",
+      "numcpus": 2,
+      "coresPerSocket": 2,
+      "disk_provisioning": "thin"
+    }
+  ]
+}
