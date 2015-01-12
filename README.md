@@ -16,7 +16,7 @@ fab -H root@<your_esxi_host> esx.clone_vm:myvm-settings.json
 
 ```
 [root@esxi] Executing task 'esx.clone_vm'
->>> Processing myvm-dev
+>>> Creating VM: myvm-dev
 Creating target VM myvm-dev folder /vmfs/volumes/datastore1/myvm-dev
 [root@esxi] run: mkdir /vmfs/volumes/datastore1/myvm-dev
 Cloning disk /vmfs/volumes/datastore1/ubuntu-1404-64bit/ubuntu-1404-64bit.vmdk

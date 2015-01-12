@@ -113,7 +113,7 @@ def clone_vm(config_file):
         if vm_exist(vm["name"]):
             raise SystemExit("ERROR - VM %s already exist." % vm["name"])
         else:
-            print(green(">>> Processing %s" % vm["name"]))
+            print(green(">>> Creating VM: %s" % vm["name"]))
 
             vm_path = data["datastore"] + "/" + vm["name"]
             if folder_exist(vm_path):
